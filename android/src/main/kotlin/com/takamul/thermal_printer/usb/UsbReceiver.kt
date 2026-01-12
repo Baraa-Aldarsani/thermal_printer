@@ -1,4 +1,4 @@
-package com.codingdevs.thermal_printer.usb
+package com.takamul.thermal_printer.usb
 
 import android.app.PendingIntent
 import android.content.BroadcastReceiver

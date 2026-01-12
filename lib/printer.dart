@@ -1,8 +1,8 @@
 import 'package:flutter/services.dart';
 
-final flutterPrinterChannel = const MethodChannel('com.codingdevs.thermal_printer');
-final flutterPrinterEventChannelBT = const EventChannel('com.codingdevs.thermal_printer/bt_state');
-final flutterPrinterEventChannelUSB = const EventChannel('com.codingdevs.thermal_printer/usb_state');
+final flutterPrinterChannel = const MethodChannel('com.takamul.thermal_printer');
+final flutterPrinterEventChannelBT = const EventChannel('com.takamul.thermal_printer/bt_state');
+final flutterPrinterEventChannelUSB = const EventChannel('com.takamul.thermal_printer/usb_state');
 final iosChannel = const MethodChannel('thermal_printer/methods');
 final iosStateChannel = const EventChannel('thermal_printer/state');
 

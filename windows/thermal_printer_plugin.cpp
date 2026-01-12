@@ -41,7 +41,7 @@ namespace
   {
     auto channel =
         std::make_unique<flutter::MethodChannel<flutter::EncodableValue>>(
-            registrar->messenger(), "com.codingdevs.thermal_printer",
+            registrar->messenger(), "com.takamul.thermal_printer",
             &flutter::StandardMethodCodec::GetInstance());
 
     auto plugin = std::make_unique<ThermalPrinterPlugin>();

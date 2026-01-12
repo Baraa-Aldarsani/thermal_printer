@@ -73,7 +73,7 @@ USB: you can enable the native broadcast receiver to notify connected usb device
 put the following code in AndroidManifest
 ```
    <receiver
-        android:name="com.codingdevs.thermal_printer.usb.UsbReceiver"
+        android:name="com.takamul.thermal_printer.usb.UsbReceiver"
         android:exported="false">
 
         <intent-filter>

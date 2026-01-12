@@ -1,4 +1,4 @@
-package com.codingdevs.thermal_printer.bluetooth
+package com.takamul.thermal_printer.bluetooth
 
 import android.bluetooth.*
 import android.content.Context
@@ -6,8 +6,8 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
-import com.codingdevs.thermal_printer.bluetooth.SampleGattAttributes.Companion.CLIENT_CHARACTERISTIC_CONFIG
-import com.codingdevs.thermal_printer.bluetooth.SampleGattAttributes.Companion.HEART_RATE_MEASUREMENT
+import com.takamul.thermal_printer.bluetooth.SampleGattAttributes.Companion.CLIENT_CHARACTERISTIC_CONFIG
+import com.takamul.thermal_printer.bluetooth.SampleGattAttributes.Companion.HEART_RATE_MEASUREMENT
 import io.flutter.plugin.common.MethodChannel
 import java.util.*
 

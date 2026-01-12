@@ -1,4 +1,4 @@
-package com.codingdevs.thermal_printer.models
+package com.takamul.thermal_printer.models
 
 data class LocalBluetoothDevice(
 

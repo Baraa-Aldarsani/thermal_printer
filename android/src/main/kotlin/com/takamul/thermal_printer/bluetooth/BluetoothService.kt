@@ -1,4 +1,4 @@
-package com.codingdevs.thermal_printer.bluetooth
+package com.takamul.thermal_printer.bluetooth
 
 import android.app.Activity
 import android.bluetooth.BluetoothAdapter
@@ -9,7 +9,7 @@ import android.content.Context
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
-import com.codingdevs.thermal_printer.models.LocalBluetoothDevice
+import com.takamul.thermal_printer.models.LocalBluetoothDevice
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.Result
 

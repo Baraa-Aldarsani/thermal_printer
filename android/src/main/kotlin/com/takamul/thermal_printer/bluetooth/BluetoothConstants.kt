@@ -1,4 +1,4 @@
-package com.codingdevs.thermal_printer.bluetooth
+package com.takamul.thermal_printer.bluetooth
 
 object BluetoothConstants {
     // Constants that indicate the current connection state

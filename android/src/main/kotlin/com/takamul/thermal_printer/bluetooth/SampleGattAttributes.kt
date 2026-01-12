@@ -1,4 +1,4 @@
-package com.codingdevs.thermal_printer.bluetooth
+package com.takamul.thermal_printer.bluetooth
 
 import java.util.*
 import kotlin.collections.HashMap

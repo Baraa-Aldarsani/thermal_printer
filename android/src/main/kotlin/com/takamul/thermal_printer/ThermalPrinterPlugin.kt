@@ -1,4 +1,4 @@
-package com.codingdevs.thermal_printer
+package com.takamul.thermal_printer
 
 import android.Manifest
 import android.app.Activity
@@ -16,11 +16,11 @@ import android.widget.Toast
 import androidx.annotation.NonNull
 import androidx.core.app.ActivityCompat
 import androidx.core.app.ActivityCompat.startActivityForResult
-import com.codingdevs.thermal_printer.bluetooth.BluetoothConnection
-import com.codingdevs.thermal_printer.bluetooth.BluetoothConstants
-import com.codingdevs.thermal_printer.bluetooth.BluetoothService
-import com.codingdevs.thermal_printer.bluetooth.BluetoothService.Companion.TAG
-import com.codingdevs.thermal_printer.usb.USBPrinterService
+import com.takamul.thermal_printer.bluetooth.BluetoothConnection
+import com.takamul.thermal_printer.bluetooth.BluetoothConstants
+import com.takamul.thermal_printer.bluetooth.BluetoothService
+import com.takamul.thermal_printer.bluetooth.BluetoothService.Companion.TAG
+import com.takamul.thermal_printer.usb.USBPrinterService
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.embedding.engine.plugins.activity.ActivityAware
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding
@@ -476,9 +476,9 @@ class ThermalPrinterPlugin : FlutterPlugin, MethodCallHandler, PluginRegistry.Re
     companion object {
         const val PERMISSION_ALL = 1
         const val PERMISSION_ENABLE_BLUETOOTH = 999
-        const val methodChannel = "com.codingdevs.thermal_printer"
-        const val eventChannelBT = "com.codingdevs.thermal_printer/bt_state"
-        const val eventChannelUSB = "com.codingdevs.thermal_printer/usb_state"
+        const val methodChannel = "com.takamul.thermal_printer"
+        const val eventChannelBT = "com.takamul.thermal_printer/bt_state"
+        const val eventChannelUSB = "com.takamul.thermal_printer/usb_state"
 
     }
 }
