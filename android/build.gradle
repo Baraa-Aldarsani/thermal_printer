@@ -1,4 +1,4 @@
-group 'com.codingdevs.thermal_printer'
+group 'com.takamul.thermal_printer'
 version '1.0-SNAPSHOT'
 
 buildscript {
